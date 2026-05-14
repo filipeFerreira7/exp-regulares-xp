@@ -42,3 +42,24 @@ python -m http.server 8000
 
 Depois acesse `http://localhost:8000`.
 
+## Teste Você Também!
+
+Copie e cole os exemplos abaixo diretamente no web app:
+
+### 1. Validação de CPF
+**Regex:**
+```regex
+\d{3}\.\d{3}\.\d{3}-\d{2}
+```
+### 2. Validação de CPF
+``` regex
+\d{2}   $$\s\d{5}-\d{4}
+```
+Descrição: Valida números de celular no formato (63) 98765-4321
+
+### 3. Datas no formato DD/MM/AAAA
+**Regex:**
+``` regex
+\b(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/\d{4}\b
+```
+Descrição: Valida datas no formato brasileiro 14/05/2026
