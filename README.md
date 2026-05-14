@@ -1,4 +1,6 @@
 # Regex Journey
+## Link em produção do projeto: 
+https://regexjourney.vercel.app 
 
 Regex Journey e um web app estático para demonstrar o funcionamento de expressões regulares de forma visual e interativa.
 
