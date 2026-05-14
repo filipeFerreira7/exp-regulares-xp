@@ -53,7 +53,7 @@ Copie e cole os exemplos abaixo diretamente no web app:
 ```
 ### 2. Validação de número celular no Brasil
 ``` regex
-\d{2}   $$\s\d{5}-\d{4}
+\(\d{2}\) \d{5}-\d{4}
 ```
 Descrição: Valida números de celular no formato (63) 98765-4321
 
