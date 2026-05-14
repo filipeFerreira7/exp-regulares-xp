@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regex Journey</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <span class="eyebrow">Linguagens Formais</span>
+        <h1>Regex Journey</h1>
+        <p>Demonstracao interativa de expressoes regulares.</p>
+      </section>
+
+      <section class="grid-layout">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker">Entrada</p>
+              <h2>Expressao Regular</h2>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <label class="field">
+              <span>Regex</span>
+              <input
+                id="regexInput"
+                type="text"
+                value="\b[a-zA-Z]{5}\b"
+                spellcheck="false"
+              />
+            </label>
+
+            <div class="flags-group">
+              <span>Flags</span>
+              <label><input type="checkbox" id="flagG" checked /> g</label>
+              <label><input type="checkbox" id="flagI" /> i</label>
+              <label><input type="checkbox" id="flagM" /> m</label>
+            </div>
+          </div>
+
+          <label class="field">
+            <span>Texto de teste</span>
+         <textarea id="testInput" rows="8" spellcheck="false">
+Sabor
+Filipe
+Matar
+Sobra
+Nada
+Neymar
+</textarea>
+          </label>
+
+          <div class="playground-toolbar">
+            <button id="runStep" class="primary-button" type="button">
+              Executar passo a passo
+            </button>
+            <button id="stopStep" class="secondary-button" type="button">
+              Parar
+            </button>
+            <span id="statusBadge" class="status-badge">Pronto</span>
+          </div>
+
+          <div class="match-summary" id="matchSummary"></div>
+
+          <div class="result-block">
+            <div class="result-header">
+              <h3>Resultado</h3>
+              <span id="regexPreview"></span>
+            </div>
+            <pre id="highlightOutput" class="highlight-output"></pre>
+          </div>
+        </article>
+
+        <aside class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker">Resumo</p>
+              <h2>Leitura</h2>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div id="stepString" class="step-string"></div>
+            <div class="step-meta">
+              <div>
+                <span class="meta-label">Posicao</span>
+                <strong id="currentPosition">0</strong>
+              </div>
+              <div>
+                <span class="meta-label">Estado</span>
+                <strong id="currentState">Aguardando</strong>
+              </div>
+              <div>
+                <span class="meta-label">Tentativa</span>
+                <strong id="currentToken">-</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="explanation-box">
+            <div class="result-header">
+              <h3>Explicacao automatica</h3>
+            </div>
+            <div id="regexExplanation" class="explanation-list"></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="panel examples-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="panel-kicker">Exemplos</p>
+            <h2>Exemplos prontos</h2>
+          </div>
+        </div>
+        <div id="examplesGrid" class="examples-grid"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
