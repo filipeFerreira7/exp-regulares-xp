@@ -1,8 +1,10 @@
 # Regex Journey
 ## Link em produção do projeto: 
-https://regexjourney.vercel.app 
+<a href="https://regexjourney.vercel.app" target="_blank">
+  Regex Journey
+</a> <br> 
 
-Regex Journey e um web app estático para demonstrar o funcionamento de expressões regulares de forma visual e interativa.
+Regex Journey é um web app estático para demonstrar o funcionamento de expressões regulares de forma visual e interativa.
 
 ## O que o app faz
 
