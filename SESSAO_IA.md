@@ -1,4 +1,4 @@
-# Sessao de Conversacao com IA
+# Sessao de Conversação com IA
 
 ## Contexto da atividade
 
