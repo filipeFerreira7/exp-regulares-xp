@@ -1,10 +1,10 @@
-# Sessao de Conversação com IA
+# Sessão de Conversação com IA
 
 ## Contexto da atividade
 
 Solicitação do professor:
 
-> Crie um web app que demonstre o funcionamento de expressões regulares. Esta atividade deve ser realizada em grupo de ate quatro participantes, utilizando recursos de IA generativa. O código do web app deve ser distribuído em um repositório do Github e deve conter um arquivo markdown com todo o teor da sessão de conversação com a IA. A resposta da atividade deve ser a URL do Github ou a URL de acesso ao web app diretamente.
+> Crie um web app que demonstre o funcionamento de expressões regulares. Esta atividade deve ser realizada em grupo de até quatro participantes, utilizando recursos de IA generativa. O código do web app deve ser distribuído em um repositório do Github e deve conter um arquivo markdown com todo o teor da sessão de conversação com a IA. A resposta da atividade deve ser a URL do Github ou a URL de acesso ao web app diretamente.
 
 ## Pedido inicial enviado para a IA
 
@@ -131,6 +131,6 @@ Ao final da sessão, o projeto ficou com:
 - `README.md`
 - `SESSAO_IA.md`
 
-## Observacao
+## Observação
 
 Este arquivo foi atualizado durante a sessão para refletir as mudanças feitas com apoio da IA. Se houver novas alterações antes da entrega final, ele deve ser atualizado novamente.
