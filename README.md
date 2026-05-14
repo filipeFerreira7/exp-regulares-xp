@@ -51,7 +51,7 @@ Copie e cole os exemplos abaixo diretamente no web app:
 ```regex
 \d{3}\.\d{3}\.\d{3}-\d{2}
 ```
-### 2. Validação de CPF
+### 2. Validação de número celular no Brasil
 ``` regex
 \d{2}   $$\s\d{5}-\d{4}
 ```
